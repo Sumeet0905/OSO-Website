@@ -1,6 +1,6 @@
 import React from "react";
 import Boy from "/src/assetsbooks/boy.png";
-import { IoCartOutline } from "react-icons/io5";
+import { FaUserLarge } from "react-icons/fa6";
 
 import {animate, delay, motion} from "framer-motion";
 
@@ -50,7 +50,7 @@ const Hero = () => {
             <motion.button variants={SlideUp(1.8)}
              initial = "hidden"
              whileInView = "show" className="btn-primary inline-block  !mt-10">
-              <IoCartOutline className=" h-[23px] w-[23px] inline mr-2" />
+              <FaUserLarge className=" h-[23px] w-[23px] inline mr-2" />
               Order Now
             </motion.button>
           </div>
