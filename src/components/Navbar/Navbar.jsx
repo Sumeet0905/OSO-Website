@@ -1,6 +1,6 @@
 import React from "react"
 import Logo from "/src/assetsbooks/bookstore.png";
-import { IoCartOutline } from 'react-icons/io5';
+import { FaUserLarge } from "react-icons/fa6";
 import { animate, delay, motion } from 'framer-motion';
 
 const NavMenu = [
@@ -91,8 +91,8 @@ const Navbar = () => {
         {/* button section */}
         <motion.div variants={Slidedown(1)}
         initial = "initial" animate = "animate">
-            <button className= "h-[45px] w-[45px] grid place-items-center rounded-full text-white bg-black">
-                <IoCartOutline className="h-[22px] w-[22px]" /></button>
+            <button className= "h-[30px] w-[30px] grid place-items-center rounded-full text-white bg-black">
+                <FaUserLarge className="h-[18px] w-[18px]" /></button>
         </motion.div>
     </div>
   </nav>;

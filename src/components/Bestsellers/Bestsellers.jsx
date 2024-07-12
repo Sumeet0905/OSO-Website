@@ -35,7 +35,7 @@ const Bestsellers = () => {
     <section>
       <div className="container py-24">
           <motion.h3 
-          variants={SlideUp(0.5)}
+          variants={SlideUp(0.2)}
           initial = "hidden"
           whileInView="show"
           className="text-4xl text-center font-league font-semibold uppercase py-8">Our Bestsellers</motion.h3>
